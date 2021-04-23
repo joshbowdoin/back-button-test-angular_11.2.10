@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/messages"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Messages from <a routerLink="/profile">@UserHandle</a>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ng-container *ngFor="let num of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]">
+      <ion-item>
+        <ion-label>
+          <h2><a routerLink="/profile">@UserHandle</a> </h2>
+          <div>Message {{num}} here ...</div>
+        </ion-label>
+      </ion-item>
+
+      <ion-item style="text-align: right;">
+        <ion-label>
+          <div>My reply {{num}}</div>
+        </ion-label>
+      </ion-item>
+    </ng-container>
+
+
+  </ion-list>
+</ion-content>
