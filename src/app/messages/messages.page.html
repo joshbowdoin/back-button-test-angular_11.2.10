@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Messages
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Messages</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-item routerLink="message" *ngFor="let num of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]">
+      <ion-label>
+        <h2>@SomeUserHandle{{num}} - Last message here...</h2>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
