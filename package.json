@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "11.2.9",
     "@angular/router": "11.2.9",
     "@capacitor/core": "2.4.7",
-    "@ionic/angular": "^5.6.5",
+    "@ionic/angular": "^5.7.0-dev.202104232151.a9018a2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
